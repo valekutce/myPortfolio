@@ -964,3 +964,54 @@ h2.navBlock-title {
         flex-direction: column;
     }
 }
+
+@media(max-width: 820px) {
+    .header {
+        padding: 105px 30px 30px 69px;       
+    }
+    .header-title h1 {
+        font-size: 130px;
+        margin-bottom: 20px;
+    }
+    .blog-recent-posts {
+        flex-direction: column;
+    }
+    .blog-recent-post {
+        width: 500px;
+        display: flex;
+        margin-bottom: 30px;
+    }
+    .blog-img {
+        width: 160px;
+        height: 10px;
+        margin-right: 30px;
+    }
+    .projects-item {
+        height: 172px;
+    }
+    .mySkills-text {
+        padding: 0 5px;
+    }
+}
+@media(max-width: 768px) {
+    .about-title h2 {
+        font-size: 76px; 
+    }
+    .projects-item {
+        height: 162px;
+    }
+    .process {
+        width: 100%;
+        padding: 60px 30px 0px 30px;
+    }
+    .team {
+        padding: 85px 30px 45px 30px;
+
+    }
+    .blog-recent-post {
+        width: 460px;
+    }
+    .footer-text h2 {
+        font-size: 60px;
+    }
+}
