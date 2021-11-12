@@ -1191,12 +1191,28 @@ h2.navBlock-title {
     .testimonials-slider {
         height: 360px;
     }
+    .testimonials-text {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+    }
     .blog {
         padding: 30px 20px 80px 20px;
     }
+    .blog-recent-posts {
+        width: 100%;
+    }
     .blog-recent-post {
         flex-direction: column;
-        width: 380px;
+        width: 100%;
+        text-align: center;
+    }
+    .blog-img {
+        margin: 0 auto 10px;
+        height: 160px;
+        img {
+            height: 160px;
+        }
     }
     .wrap-telEmal input[type=tel],.wrap-telEmal input[type=email] {
         width: 100%;
@@ -1345,11 +1361,24 @@ h2.navBlock-title {
         background: url(../img/layer_25_108.jpg) no-repeat 61% 100%;
         background-size: cover;
     }
+    .testimonials {
+        height: 590px;
+    }
+    .testimonials-slider {
+        height: 420px;
+    }
+    .blog {
+        padding: 20px 10px;
+    }
     .blog-recent-post {
         width: 262px;
     }
     .blog-img {
         margin-bottom: 20px;
+    }
+    .category-links {
+        flex-direction: column;
+        text-align: center;
     }
     .contact-form {
         padding: 45px 10px;

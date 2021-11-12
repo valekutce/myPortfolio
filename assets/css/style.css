@@ -1529,8 +1529,18 @@ h2.navBlock-title {
     height: 360px;
   }
 
+  .testimonials-text {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+
   .blog {
     padding: 30px 20px 80px 20px;
+  }
+
+  .blog-recent-posts {
+    width: 100%;
   }
 
   .blog-recent-post {
@@ -1538,7 +1548,16 @@ h2.navBlock-title {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 380px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .blog-img {
+    margin: 0 auto 10px;
+    height: 160px;
+  }
+  .blog-img img {
+    height: 160px;
   }
 
   .wrap-telEmal input[type=tel], .wrap-telEmal input[type=email] {
@@ -1723,12 +1742,32 @@ h2.navBlock-title {
     background-size: cover;
   }
 
+  .testimonials {
+    height: 590px;
+  }
+
+  .testimonials-slider {
+    height: 420px;
+  }
+
+  .blog {
+    padding: 20px 10px;
+  }
+
   .blog-recent-post {
     width: 262px;
   }
 
   .blog-img {
     margin-bottom: 20px;
+  }
+
+  .category-links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
   }
 
   .contact-form {
