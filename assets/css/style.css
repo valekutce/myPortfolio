@@ -1014,6 +1014,7 @@ h2.navBlock-title {
   min-height: 650px;
   background-color: #000000;
   padding: 40px 25px 40px 25px;
+  position: relative;
 }
 .footer-nav h2 {
   line-height: 1.2;
@@ -1065,6 +1066,57 @@ h2.navBlock-title {
   font-weight: 700;
   letter-spacing: -0.05em;
   color: #ffffff;
+}
+.footer-text__active {
+  opacity: 0;
+}
+
+/* Кнопка для мобильного меню в футере сайта. */
+.burg {
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  right: -40px;
+}
+.burg span {
+  display: block;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.burg span:nth-child(1) {
+  top: 0;
+  right: 0;
+  width: 50%;
+}
+.burg span:nth-child(2), .burg span:nth-child(3) {
+  top: 50%;
+  width: 100%;
+}
+.burg span:nth-child(4) {
+  bottom: 0;
+  width: 50%;
+}
+.burg__active :nth-child(1) {
+  left: -3px;
+  top: 11px !important;
+  -webkit-transform: rotate(-25deg);
+          transform: rotate(-25deg);
+}
+.burg__active :nth-child(4) {
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
+  bottom: 10px !important;
+  left: -3px;
+}
+.burg__active :nth-child(3) {
+  width: 70%;
+}
+.burg__active :nth-child(2) {
+  width: 70%;
 }
 
 @media (min-width: 2560px) and (height: 1440px) {
@@ -1500,6 +1552,19 @@ h2.navBlock-title {
     margin-top: 135px;
     margin-left: -250px;
     width: auto;
+  }
+
+  .footer-nav__active {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .footer-nav__active .footer-nav {
+    width: 370px;
+  }
+
+  .footer-nav__active .footer-text {
+    width: 0;
   }
 
   .footer-text h2 {
