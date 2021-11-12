@@ -1220,7 +1220,7 @@ h2.navBlock-title {
         font-size: 34px;
     }
     .nav a.nav-item {
-        margin-right: 5px;
+        display: block;
     }
     .projects-item {
         height: 144px;
@@ -1236,5 +1236,38 @@ h2.navBlock-title {
     }
     .footer-text h2 {
         font-size: 38px;
+    }
+}
+
+@media(max-width: 320px) {
+    .header-title h1 {
+        font-size: 50px;
+    }
+    h2.navBlock-title {
+        font-size: 30px;
+    }
+    .projects-title h2,.process h2  {
+        font-size: 28px;
+    }
+    .projects-item {
+        height: 127px;
+    }
+    .services h2 {
+        font-size: 25px;
+    }
+    .services {
+        height: 1030px;
+    }
+    .blog-recent-post {
+        width: 262px;
+    }
+    .blog-img {
+        margin-bottom: 20px;
+    }
+    .contact-form {
+        padding: 45px 15px;
+    }
+    .footer-text h2 {
+        font-size: 30px;
     }
 }
