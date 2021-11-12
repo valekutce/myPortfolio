@@ -1461,6 +1461,75 @@ h2.navBlock-title {
     width: 328px;
   }
 }
+@media (max-width: 568px) and (height: 320px) {
+  .header-title h1 {
+    font-size: 90px;
+    margin-bottom: 30px;
+  }
+
+  .projects {
+    padding-top: 30px;
+  }
+
+  .projects-item {
+    height: 240px;
+  }
+
+  .blog-recent-posts, .blog-recent-post {
+    width: 100%;
+  }
+
+  .contact-form {
+    height: 730px;
+  }
+
+  .wrap-telEmal input[type=tel], .wrap-telEmal input[type=email] {
+    width: 100%;
+  }
+
+  .contact {
+    min-height: 858px;
+  }
+
+  .testimonials-text {
+    margin-right: 0;
+    width: 380px;
+  }
+
+  .services {
+    background: url(../img/layer_25_108.jpg) no-repeat 68% 100%;
+    background-size: cover;
+  }
+}
+@media (max-width: 480px) and (height: 320px) {
+  .header {
+    padding: 40px 30px 30px 69px;
+  }
+
+  .header-title h1 {
+    font-size: 75px;
+  }
+
+  h2.navBlock-title {
+    font-size: 46px;
+  }
+
+  .nav a.nav-item {
+    margin-right: 25px;
+  }
+
+  .projects-item {
+    height: 200px;
+  }
+
+  .blog {
+    padding: 30px 15px 0;
+  }
+
+  .footer-text h2 {
+    font-size: 40px;
+  }
+}
 @media (max-width: 428px) {
   .header {
     padding: 60px 20px 30px 30px;
