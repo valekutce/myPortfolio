@@ -1527,3 +1527,40 @@ h2.navBlock-title {
     font-size: 44px;
   }
 }
+@media (max-width: 390px) {
+  h2.navBlock-title {
+    font-size: 390px;
+  }
+
+  .nav a.nav-item {
+    margin-right: 10px;
+  }
+
+  .about-title h2 {
+    font-size: 70px;
+  }
+
+  .projects {
+    padding-top: 40px;
+  }
+
+  .projects-item {
+    height: 155px;
+  }
+
+  .process {
+    padding: 50px 15px 0;
+  }
+
+  .testimonials-imgName .testimonials-prof {
+    margin-bottom: 10px;
+  }
+
+  .blog-recent-posts {
+    width: 380px;
+  }
+
+  .blog-recent-post {
+    width: 320px;
+  }
+}
