@@ -1184,7 +1184,7 @@ h2.navBlock-title {
 
 @media(max-width: 390px) {
     h2.navBlock-title {
-        font-size: 390px;
+        font-size: 39px;
     }
     .nav a.nav-item {
         margin-right: 10px;
@@ -1209,5 +1209,32 @@ h2.navBlock-title {
     }
     .blog-recent-post {
         width: 320px;
+    }
+}
+
+@media(max-width: 375px) {
+    .header-title h1 {
+        font-size: 60px;
+    }
+    h2.navBlock-title {
+        font-size: 34px;
+    }
+    .nav a.nav-item {
+        margin-right: 5px;
+    }
+    .projects-item {
+        height: 144px;
+    }
+    .process-text {
+        height: 310px;
+    }
+    .services {
+        height: 970px;
+    }
+    .blog-recent-post {
+        width: 300px;
+    }
+    .footer-text h2 {
+        font-size: 38px;
     }
 }
