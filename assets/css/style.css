@@ -1506,7 +1506,7 @@ h2.navBlock-title {
     font-size: 45px;
   }
 }
-@media (max-width: 428px) {
+@media (max-width: 414px) {
   .header-title h1 {
     font-size: 69px;
   }
