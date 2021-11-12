@@ -1015,3 +1015,81 @@ h2.navBlock-title {
         font-size: 60px;
     }
 }
+
+@media(max-width: 667px) {
+    .header-title h1 {
+        font-size: 115px;
+    }
+    .about-wrap {
+        flex-direction: column;
+    }
+    .about-title h2 {
+        font-size: 90px;
+    }
+    .about-desc,.about-title {
+        width: 90%;
+    }
+    .mySkills {
+        flex-direction: column;
+    }
+    .mySkills-block {
+        margin-bottom: 30px;
+    }
+    .projects-item {
+        width: 50%;
+    }
+    .projects-item {
+        height: 270px;
+    }
+    .services {
+        height: 850px;
+    }
+    .services-item {
+        width: 100%;
+    }
+    .process-item {
+        flex-direction: column;
+    }
+    .process-item__revers {
+        flex-direction: column-reverse;
+    }
+    .process-img {
+        width: 100%;
+        height: 379px;
+    }
+    .process-text {
+        width: 100%;
+        height: 285px;
+    }
+    .blog-wrap {
+        flex-direction: column;
+    }
+    .blog-recent-post {
+        width: 570px;
+    }
+    .blog-category {
+        width: 100%;
+    }
+    .category-links {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 20px!important;
+    }
+    .category-link {
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    .form-block {
+        width: 100%;
+    }
+    .contact-form {
+        padding: 45px 30px;
+    }
+    .wrap-telEmal input[type=tel] {
+        width: 200px;
+    }
+    .wrap-telEmal input[type=email] {
+        width: 328px;
+    }
+}
