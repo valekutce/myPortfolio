@@ -850,6 +850,7 @@ h2.navBlock-title {
     position: absolute;
     top: 20px;
     right: -40px;
+    display: none;
     span {
         display: block;
         height: 2px;
@@ -1203,6 +1204,9 @@ h2.navBlock-title {
     .contact-form {
         height: 757px;
     }
+    .contact-adress {
+        width: 100%;
+    }
     .footer {
         margin-top: 135px;
         margin-left: -250px;
@@ -1220,6 +1224,9 @@ h2.navBlock-title {
     }
     .footer-text h2 {
         font-size: 45px;
+    }
+    .burg {
+        display: block;
     }
 }
 
@@ -1302,6 +1309,15 @@ h2.navBlock-title {
     .header-title h1 {
         font-size: 50px;
     }
+    .header-text, .header-download a {
+        padding-left: 0;
+    }
+    .navBlock {
+        background: url(../img/layer_1_2.jpg) no-repeat 76% 100%;
+    }
+    nav.nav {
+        text-align: right;
+    }
     h2.navBlock-title {
         font-size: 30px;
     }
@@ -1311,11 +1327,21 @@ h2.navBlock-title {
     .projects-item {
         height: 127px;
     }
+    .process {
+        padding: 50px 10px 0;
+    }
+    .team {
+        padding: 10px;
+    }
+    .process-text {
+        padding: 0;
+    }
     .services h2 {
         font-size: 25px;
     }
     .services {
-        height: 1030px;
+        height: 920px;
+        padding: 35px 10px 50px;
     }
     .blog-recent-post {
         width: 262px;
@@ -1324,7 +1350,7 @@ h2.navBlock-title {
         margin-bottom: 20px;
     }
     .contact-form {
-        padding: 45px 15px;
+        padding: 45px 10px;
     }
     .footer-text h2 {
         font-size: 30px;
