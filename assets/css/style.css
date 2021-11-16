@@ -251,6 +251,11 @@ h2.navBlock-title {
   line-height: 0.8;
 }
 
+.nav .nav-items-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 .nav a.nav-item {
   position: relative;
   font-family: "Conv_MyriadPro-Regular";
@@ -1770,6 +1775,13 @@ h2.navBlock-title {
 
   .navBlock {
     background: url(../img/layer_1_2.jpg) no-repeat 76% 100%;
+  }
+
+  .nav .nav-items-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 
   nav.nav {
