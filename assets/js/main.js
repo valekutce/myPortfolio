@@ -22,5 +22,25 @@ $(document).ready(function (){
         $(this).removeClass('pupapOverlay__active');
         $('.pupapWhatWordpress').removeClass('pupapWhatWordpress__active');
     });
+
+    $('span.siteType-click').each(function (){
+        $(this).click(function (){
+            if($(this).attr('class') == 'siteType-click siteType-korporativ') {
+                $('section.siteType-korporativ').fadeIn(2000);
+            } else if($(this).attr('class') == 'siteType-click siteType-landing') {
+                $('section.siteType-landing').fadeIn(2000);
+            } else if($(this).attr('class') == 'siteType-click siteType-internet-magaz') {
+                $('section.siteType-internet-magaz').fadeIn(2000);
+            }
+            $('.pupap-siteType').addClass('pupap-siteType__active');
+            $('.pupapOverlay').addClass('pupapOverlay__active');
+        });
+    });
+
+    $('.pupapOverlay').click(function(){
+        $(this).removeClass('pupapOverlay__active');
+        $('.pupap-siteType').removeClass('pupap-siteType__active');
+        $('.pupap-siteType section').css('display','none')
+    });
    
 });
